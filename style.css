@@ -3,14 +3,31 @@
     * {
         padding: 10px;
         margin: 10px;
-        box-sizing: border-box;
-      }
-      
+      } 
 }
+
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+ box-sizing: inherit;
+}
+
+img,
+h1,
+h2,
+p,
+ul,
+ol {
+    width: 500px;
+}
+
 
 img {
     height: auto;
-    width: 400px;
 }
 
 h1 {
@@ -25,4 +42,8 @@ h2 {
 p,
 li {
     font-size: 15px;
+}
+
+li {
+    margin: -10px 10px;
 }
